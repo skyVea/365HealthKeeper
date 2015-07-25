@@ -1,0 +1,19 @@
+//
+//  DLog-Prefix.pch
+//  365HealthKeeper
+//
+//  Created by lanou3g on 15/7/25.
+//  Copyright (c) 2015年 lanou3g. All rights reserved.
+//
+
+#ifndef _65HealthKeeper_DLog_Prefix_pch
+#define _65HealthKeeper_DLog_Prefix_pch
+#ifdef DEBUG
+#   define DLog(...) NSLog(__VA_ARGS__)
+#else
+#   define DLog(...)
+#endif
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif

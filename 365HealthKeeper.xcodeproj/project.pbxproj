@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C20B83091B634F12007F2BC5 /* DrugTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C20B83081B634F12007F2BC5 /* DrugTableViewController.m */; };
+		C20B830D1B634F87007F2BC5 /* NewsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C20B830C1B634F87007F2BC5 /* NewsTableViewController.m */; };
+		C20B83111B634F93007F2BC5 /* RoundTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C20B83101B634F93007F2BC5 /* RoundTableViewController.m */; };
+		C20B83201B636830007F2BC5 /* MineView.m in Sources */ = {isa = PBXBuildFile; fileRef = C20B831F1B636830007F2BC5 /* MineView.m */; };
+		C20B83231B63689A007F2BC5 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C20B83221B63689A007F2BC5 /* MineViewController.m */; };
+		C248D4471B6330BB003D49D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C248D4461B6330BB003D49D1 /* main.m */; };
+		C248D44A1B6330BB003D49D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C248D4491B6330BB003D49D1 /* AppDelegate.m */; };
+		C248D44C1B6330BB003D49D1 /* 365HealthKeeper-Prefix.pch in Resources */ = {isa = PBXBuildFile; fileRef = C248D44B1B6330BB003D49D1 /* 365HealthKeeper-Prefix.pch */; };
+		C248D44E1B6330BB003D49D1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C248D44D1B6330BB003D49D1 /* Images.xcassets */; };
+		C248D4511B6330BB003D49D1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C248D44F1B6330BB003D49D1 /* LaunchScreen.xib */; };
+		C248D45D1B6330BC003D49D1 /* _65HealthKeeperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C248D45C1B6330BC003D49D1 /* _65HealthKeeperTests.m */; };
+		C248D4741B633B8E003D49D1 /* RootTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C248D4731B633B8E003D49D1 /* RootTabBarController.m */; };
+		C248D4751B633B8E003D49D1 /* RootTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C248D4731B633B8E003D49D1 /* RootTabBarController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C248D4571B6330BC003D49D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C248D4391B6330BB003D49D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C248D4401B6330BB003D49D1;
+			remoteInfo = 365HealthKeeper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C20B83071B634F12007F2BC5 /* DrugTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrugTableViewController.h; sourceTree = "<group>"; };
+		C20B83081B634F12007F2BC5 /* DrugTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrugTableViewController.m; sourceTree = "<group>"; };
+		C20B830B1B634F87007F2BC5 /* NewsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsTableViewController.h; sourceTree = "<group>"; };
+		C20B830C1B634F87007F2BC5 /* NewsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsTableViewController.m; sourceTree = "<group>"; };
+		C20B830F1B634F93007F2BC5 /* RoundTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundTableViewController.h; sourceTree = "<group>"; };
+		C20B83101B634F93007F2BC5 /* RoundTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundTableViewController.m; sourceTree = "<group>"; };
+		C20B831E1B636830007F2BC5 /* MineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineView.h; sourceTree = "<group>"; };
+		C20B831F1B636830007F2BC5 /* MineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineView.m; sourceTree = "<group>"; };
+		C20B83211B63689A007F2BC5 /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		C20B83221B63689A007F2BC5 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		C248D4411B6330BB003D49D1 /* 365HealthKeeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 365HealthKeeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C248D4451B6330BB003D49D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C248D4461B6330BB003D49D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C248D4481B6330BB003D49D1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C248D4491B6330BB003D49D1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C248D44B1B6330BB003D49D1 /* 365HealthKeeper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "365HealthKeeper-Prefix.pch"; sourceTree = "<group>"; };
+		C248D44D1B6330BB003D49D1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C248D4501B6330BB003D49D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C248D4561B6330BC003D49D1 /* 365HealthKeeperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 365HealthKeeperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C248D45B1B6330BC003D49D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C248D45C1B6330BC003D49D1 /* _65HealthKeeperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _65HealthKeeperTests.m; sourceTree = "<group>"; };
+		C248D4671B633493003D49D1 /* DLog-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DLog-Prefix.pch"; sourceTree = "<group>"; };
+		C248D4721B633B8E003D49D1 /* RootTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTabBarController.h; sourceTree = "<group>"; };
+		C248D4731B633B8E003D49D1 /* RootTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTabBarController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C248D43E1B6330BB003D49D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C248D4531B6330BC003D49D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C20B83061B634F12007F2BC5 /* Drug */ = {
+			isa = PBXGroup;
+			children = (
+				C20B83071B634F12007F2BC5 /* DrugTableViewController.h */,
+				C20B83081B634F12007F2BC5 /* DrugTableViewController.m */,
+			);
+			name = Drug;
+			path = 365HealthKeeper/Drug;
+			sourceTree = "<group>";
+		};
+		C20B830A1B634F87007F2BC5 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				C20B830B1B634F87007F2BC5 /* NewsTableViewController.h */,
+				C20B830C1B634F87007F2BC5 /* NewsTableViewController.m */,
+			);
+			name = News;
+			path = 365HealthKeeper/News;
+			sourceTree = "<group>";
+		};
+		C20B830E1B634F93007F2BC5 /* Round */ = {
+			isa = PBXGroup;
+			children = (
+				C20B830F1B634F93007F2BC5 /* RoundTableViewController.h */,
+				C20B83101B634F93007F2BC5 /* RoundTableViewController.m */,
+			);
+			name = Round;
+			path = 365HealthKeeper/Round;
+			sourceTree = "<group>";
+		};
+		C20B83121B634F9A007F2BC5 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Tool;
+			path = 365HealthKeeper/Tool;
+			sourceTree = "<group>";
+		};
+		C20B83131B634FA3007F2BC5 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resource;
+			path = 365HealthKeeper/Resource;
+			sourceTree = "<group>";
+		};
+		C20B831D1B636783007F2BC5 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				C20B83211B63689A007F2BC5 /* MineViewController.h */,
+				C20B83221B63689A007F2BC5 /* MineViewController.m */,
+				C20B831E1B636830007F2BC5 /* MineView.h */,
+				C20B831F1B636830007F2BC5 /* MineView.m */,
+			);
+			name = Mine;
+			path = 365HealthKeeper/Mine;
+			sourceTree = "<group>";
+		};
+		C248D4381B6330BB003D49D1 = {
+			isa = PBXGroup;
+			children = (
+				C20B831D1B636783007F2BC5 /* Mine */,
+				C20B83061B634F12007F2BC5 /* Drug */,
+				C20B83131B634FA3007F2BC5 /* Resource */,
+				C20B83121B634F9A007F2BC5 /* Tool */,
+				C20B830E1B634F93007F2BC5 /* Round */,
+				C20B830A1B634F87007F2BC5 /* News */,
+				C248D4431B6330BB003D49D1 /* 365HealthKeeper */,
+				C248D4591B6330BC003D49D1 /* 365HealthKeeperTests */,
+				C248D4421B6330BB003D49D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C248D4421B6330BB003D49D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C248D4411B6330BB003D49D1 /* 365HealthKeeper.app */,
+				C248D4561B6330BC003D49D1 /* 365HealthKeeperTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C248D4431B6330BB003D49D1 /* 365HealthKeeper */ = {
+			isa = PBXGroup;
+			children = (
+				C248D4481B6330BB003D49D1 /* AppDelegate.h */,
+				C248D4491B6330BB003D49D1 /* AppDelegate.m */,
+				C248D44B1B6330BB003D49D1 /* 365HealthKeeper-Prefix.pch */,
+				C248D44D1B6330BB003D49D1 /* Images.xcassets */,
+				C248D44F1B6330BB003D49D1 /* LaunchScreen.xib */,
+				C248D4441B6330BB003D49D1 /* Supporting Files */,
+				C248D4721B633B8E003D49D1 /* RootTabBarController.h */,
+				C248D4731B633B8E003D49D1 /* RootTabBarController.m */,
+			);
+			path = 365HealthKeeper;
+			sourceTree = "<group>";
+		};
+		C248D4441B6330BB003D49D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C248D4451B6330BB003D49D1 /* Info.plist */,
+				C248D4461B6330BB003D49D1 /* main.m */,
+				C248D4671B633493003D49D1 /* DLog-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C248D4591B6330BC003D49D1 /* 365HealthKeeperTests */ = {
+			isa = PBXGroup;
+			children = (
+				C248D45C1B6330BC003D49D1 /* _65HealthKeeperTests.m */,
+				C248D45A1B6330BC003D49D1 /* Supporting Files */,
+			);
+			path = 365HealthKeeperTests;
+			sourceTree = "<group>";
+		};
+		C248D45A1B6330BC003D49D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C248D45B1B6330BC003D49D1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C248D4401B6330BB003D49D1 /* 365HealthKeeper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C248D4601B6330BC003D49D1 /* Build configuration list for PBXNativeTarget "365HealthKeeper" */;
+			buildPhases = (
+				C248D43D1B6330BB003D49D1 /* Sources */,
+				C248D43E1B6330BB003D49D1 /* Frameworks */,
+				C248D43F1B6330BB003D49D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 365HealthKeeper;
+			productName = 365HealthKeeper;
+			productReference = C248D4411B6330BB003D49D1 /* 365HealthKeeper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C248D4551B6330BC003D49D1 /* 365HealthKeeperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C248D4631B6330BC003D49D1 /* Build configuration list for PBXNativeTarget "365HealthKeeperTests" */;
+			buildPhases = (
+				C248D4521B6330BC003D49D1 /* Sources */,
+				C248D4531B6330BC003D49D1 /* Frameworks */,
+				C248D4541B6330BC003D49D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C248D4581B6330BC003D49D1 /* PBXTargetDependency */,
+			);
+			name = 365HealthKeeperTests;
+			productName = 365HealthKeeperTests;
+			productReference = C248D4561B6330BC003D49D1 /* 365HealthKeeperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C248D4391B6330BB003D49D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = lanou3g;
+				TargetAttributes = {
+					C248D4401B6330BB003D49D1 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					C248D4551B6330BC003D49D1 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = C248D4401B6330BB003D49D1;
+					};
+				};
+			};
+			buildConfigurationList = C248D43C1B6330BB003D49D1 /* Build configuration list for PBXProject "365HealthKeeper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C248D4381B6330BB003D49D1;
+			productRefGroup = C248D4421B6330BB003D49D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C248D4401B6330BB003D49D1 /* 365HealthKeeper */,
+				C248D4551B6330BC003D49D1 /* 365HealthKeeperTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C248D43F1B6330BB003D49D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C248D44C1B6330BB003D49D1 /* 365HealthKeeper-Prefix.pch in Resources */,
+				C248D4511B6330BB003D49D1 /* LaunchScreen.xib in Resources */,
+				C248D44E1B6330BB003D49D1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C248D4541B6330BC003D49D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C248D43D1B6330BB003D49D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C20B83201B636830007F2BC5 /* MineView.m in Sources */,
+				C20B83111B634F93007F2BC5 /* RoundTableViewController.m in Sources */,
+				C248D4741B633B8E003D49D1 /* RootTabBarController.m in Sources */,
+				C20B830D1B634F87007F2BC5 /* NewsTableViewController.m in Sources */,
+				C20B83091B634F12007F2BC5 /* DrugTableViewController.m in Sources */,
+				C248D44A1B6330BB003D49D1 /* AppDelegate.m in Sources */,
+				C248D4471B6330BB003D49D1 /* main.m in Sources */,
+				C20B83231B63689A007F2BC5 /* MineViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C248D4521B6330BC003D49D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C248D45D1B6330BC003D49D1 /* _65HealthKeeperTests.m in Sources */,
+				C248D4751B633B8E003D49D1 /* RootTabBarController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C248D4581B6330BC003D49D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C248D4401B6330BB003D49D1 /* 365HealthKeeper */;
+			targetProxy = C248D4571B6330BC003D49D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C248D44F1B6330BB003D49D1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C248D4501B6330BB003D49D1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C248D45E1B6330BC003D49D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C248D45F1B6330BC003D49D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C248D4611B6330BC003D49D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "365HealthKeeper/DLog-Prefix.pch";
+				INFOPLIST_FILE = 365HealthKeeper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C248D4621B6330BC003D49D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "365HealthKeeper/DLog-Prefix.pch";
+				INFOPLIST_FILE = 365HealthKeeper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C248D4641B6330BC003D49D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = 365HealthKeeperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/365HealthKeeper.app/365HealthKeeper";
+			};
+			name = Debug;
+		};
+		C248D4651B6330BC003D49D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = 365HealthKeeperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/365HealthKeeper.app/365HealthKeeper";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C248D43C1B6330BB003D49D1 /* Build configuration list for PBXProject "365HealthKeeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C248D45E1B6330BC003D49D1 /* Debug */,
+				C248D45F1B6330BC003D49D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C248D4601B6330BC003D49D1 /* Build configuration list for PBXNativeTarget "365HealthKeeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C248D4611B6330BC003D49D1 /* Debug */,
+				C248D4621B6330BC003D49D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C248D4631B6330BC003D49D1 /* Build configuration list for PBXNativeTarget "365HealthKeeperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C248D4641B6330BC003D49D1 /* Debug */,
+				C248D4651B6330BC003D49D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C248D4391B6330BB003D49D1 /* Project object */;
+}
