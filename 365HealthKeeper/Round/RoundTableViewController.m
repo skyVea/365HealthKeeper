@@ -7,8 +7,9 @@
 //
 
 #import "RoundTableViewController.h"
+#import "MapViewController.h"
 
-@interface RoundTableViewController ()
+@interface RoundTableViewController ()<CLLocationManagerDelegate>
 
 @end
 
@@ -17,6 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"roundcell"];
+    
    
 }
 
@@ -47,6 +49,17 @@
     
     return cell;
 }
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    
+    MapViewController *mapVC = [[MapViewController alloc] init];
+    [self.navigationController pushViewController:mapVC animated:YES];
+    
+}
+
+
+
 
 
 /*

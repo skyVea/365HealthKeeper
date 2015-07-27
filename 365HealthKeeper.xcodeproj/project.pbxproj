@@ -20,6 +20,8 @@
 		C248D45D1B6330BC003D49D1 /* _65HealthKeeperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C248D45C1B6330BC003D49D1 /* _65HealthKeeperTests.m */; };
 		C248D4741B633B8E003D49D1 /* RootTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C248D4731B633B8E003D49D1 /* RootTabBarController.m */; };
 		C248D4751B633B8E003D49D1 /* RootTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C248D4731B633B8E003D49D1 /* RootTabBarController.m */; };
+		C2F959211B662F2B00C2F549 /* MapView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F959201B662F2B00C2F549 /* MapView.m */; };
+		C2F959241B662F3B00C2F549 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F959231B662F3B00C2F549 /* MapViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,10 @@
 		C248D4671B633493003D49D1 /* DLog-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DLog-Prefix.pch"; sourceTree = "<group>"; };
 		C248D4721B633B8E003D49D1 /* RootTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTabBarController.h; sourceTree = "<group>"; };
 		C248D4731B633B8E003D49D1 /* RootTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTabBarController.m; sourceTree = "<group>"; };
+		C2F9591F1B662F2B00C2F549 /* MapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapView.h; sourceTree = "<group>"; };
+		C2F959201B662F2B00C2F549 /* MapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapView.m; sourceTree = "<group>"; };
+		C2F959221B662F3B00C2F549 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		C2F959231B662F3B00C2F549 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,10 @@
 			children = (
 				C20B830F1B634F93007F2BC5 /* RoundTableViewController.h */,
 				C20B83101B634F93007F2BC5 /* RoundTableViewController.m */,
+				C2F9591F1B662F2B00C2F549 /* MapView.h */,
+				C2F959201B662F2B00C2F549 /* MapView.m */,
+				C2F959221B662F3B00C2F549 /* MapViewController.h */,
+				C2F959231B662F3B00C2F549 /* MapViewController.m */,
 			);
 			name = Round;
 			path = 365HealthKeeper/Round;
@@ -308,6 +318,8 @@
 				C20B83091B634F12007F2BC5 /* DrugTableViewController.m in Sources */,
 				C248D44A1B6330BB003D49D1 /* AppDelegate.m in Sources */,
 				C248D4471B6330BB003D49D1 /* main.m in Sources */,
+				C2F959241B662F3B00C2F549 /* MapViewController.m in Sources */,
+				C2F959211B662F2B00C2F549 /* MapView.m in Sources */,
 				C20B83231B63689A007F2BC5 /* MineViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
